@@ -1,0 +1,73 @@
+body{
+    background-color: #eee;
+}
+table td,th{
+			white-space: nowrap; 
+		}
+.main{
+	margin-top: 50px;
+}
+.showPage{
+	margin:0 auto;
+	align:center;
+	width: 700px;
+}
+.search_box{
+	width: 400px;
+	align:center;
+	margin: 10px auto;
+}
+#page{  
+    height:40px;  
+    padding:20px 0px;  
+}  
+#page a{  
+    display:block;  
+    float:left;  
+    margin-right:10px;  
+    padding:0px 12px;  
+    height:26px;  
+    border:1px #cccccc solid;  
+    background:#fff;  
+    text-decoration:none;  
+    color:#808080;  
+    font-size:12px;  
+    line-height:26px;  
+}  
+#page a:hover{  
+    color:#077ee3;  
+    border:1px #077ee3 solid;  
+}  
+#page a.cur{  
+    border:none;  
+    background:#077ee3;  
+    color:#fff;  
+}  
+#page p{  
+    float:left;  
+    padding:0px 12px;  
+    font-size:12px;  
+    height:26px;  
+    line-height:26px;  
+    color:#bbb;  
+    border:1px #ccc solid;  
+    background:#fcfcfc;  
+    margin-right:8px;  
+
+}  
+#page p.pageRemark{  
+    border-style:none;  
+    background:none;  
+    margin-right:0px;  
+    padding:0px 0px;  
+    color:#666;  
+}  
+#page p.pageRemark b{  
+    color:red;  
+}  
+#page p.pageEllipsis{  
+    border-style:none;  
+    background:none;  
+    padding:4px 0px;  
+    color:#808080;  
+}  

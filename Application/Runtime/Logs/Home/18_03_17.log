@@ -1,0 +1,112 @@
+[ 2018-03-17T21:51:25+08:00 ] 127.0.0.1 /Excel/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2018-03-17T21:51:33+08:00 ] 127.0.0.1 /Excel/index.php/Home/Index/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\PHP\Excel\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: truncate table pro_info [ RunTime:0.0230s ]
+SQL: INSERT INTO `pro_info` (`pId`,`pName`,`pPrice`,`pCount`) VALUES ('11','AA','5555','11') [ RunTime:0.0244s ]
+SQL: INSERT INTO `pro_info` (`pId`,`pName`,`pPrice`,`pCount`) VALUES ('22','BB','6666','12') [ RunTime:0.0003s ]
+SQL: INSERT INTO `pro_info` (`pId`,`pName`,`pPrice`,`pCount`) VALUES ('33','CC','7777','14') [ RunTime:0.0002s ]
+SQL: INSERT INTO `pro_info` (`pId`,`pName`,`pPrice`,`pCount`) VALUES ('44','DD','8888','23') [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2018-03-17T21:51:34+08:00 ] 127.0.0.1 /Excel/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000033s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2018-03-17T21:52:21+08:00 ] 127.0.0.1 /Excel/index.php/Home/Index/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\PHP\Excel\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: truncate table pro_info [ RunTime:0.0018s ]
+SQL: INSERT INTO `pro_info` (`pId`,`pName`,`pPrice`,`pCount`) VALUES ('11','AA','5555','11') [ RunTime:0.0017s ]
+SQL: INSERT INTO `pro_info` (`pId`,`pName`,`pPrice`,`pCount`) VALUES ('22','BB','6666','12') [ RunTime:0.0003s ]
+SQL: INSERT INTO `pro_info` (`pId`,`pName`,`pPrice`,`pCount`) VALUES ('33','CC','7777','14') [ RunTime:0.0002s ]
+SQL: INSERT INTO `pro_info` (`pId`,`pName`,`pPrice`,`pCount`) VALUES ('44','DD','8888','23') [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2018-03-17T21:52:22+08:00 ] 127.0.0.1 /Excel/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001832s ]
+

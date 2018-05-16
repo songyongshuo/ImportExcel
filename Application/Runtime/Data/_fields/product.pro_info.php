@@ -1,0 +1,1 @@
+a:6:{i:0;s:3:"pId";i:1;s:5:"pName";i:2;s:6:"pPrice";i:3;s:6:"pCount";s:3:"_pk";s:3:"pId";s:5:"_type";a:4:{s:3:"pId";s:6:"int(4)";s:5:"pName";s:11:"varchar(20)";s:6:"pPrice";s:5:"float";s:6:"pCount";s:5:"float";}}
